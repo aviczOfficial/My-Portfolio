@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6c9beb8f-741d-4efd-b4db-fe895452772d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/THUMBNAIL.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/i2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -10,6 +13,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +51,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/web sites/kenedy (2)/kenedy" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +71,8 @@
       <workItem from="1657209837982" duration="3695000" />
       <workItem from="1657248348180" duration="1701000" />
       <workItem from="1657595493643" duration="164000" />
-      <workItem from="1663686590648" duration="5381000" />
+      <workItem from="1663686590648" duration="6114000" />
+      <workItem from="1663775397632" duration="8184000" />
     </task>
     <servers />
   </component>
@@ -62,13 +80,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="113" key="FileChooserDialogImpl" timestamp="1657595651083">
+    <state x="499" y="113" key="FileChooserDialogImpl" timestamp="1663776595115">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="499" y="113" key="FileChooserDialogImpl/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663776595115" />
     <state x="499" y="113" key="FileChooserDialogImpl/0.0.1536.864/295.-768.1366.768@0.0.1536.864" timestamp="1657595651083" />
-    <state x="401" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1657595506927">
+    <state x="520" y="89" key="RollbackChangesDialog" timestamp="1663775524250">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="520" y="89" key="RollbackChangesDialog/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663775524250" />
+    <state x="401" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1663775489567">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="401" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663775489567" />
     <state x="401" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.864/295.-768.1366.768@0.0.1536.864" timestamp="1657595506927" />
     <state x="39" y="135" key="new project wizard" timestamp="1657595657807">
       <screen x="0" y="0" width="1536" height="864" />
