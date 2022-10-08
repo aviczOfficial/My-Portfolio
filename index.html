@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 
 </head>
 <body>
@@ -76,8 +77,138 @@
 
 
 </section>
+<section id="#career" class="career">
+
+    <div class="web-career">
+        <h3 class="heading">Responsive Timeline</h3>
+        <div class="container_2">
+            <ul>
+                <li>
+                    <h3 class="title">FrontEnd Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
+                    <a href="#">Read More ></a>
+                    <span class="circle"></span>
+                    <span class="date">january 2222</span>
+                </li>
+                <li>
+                    <h3 class="title">BackEnd Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
+                    <a href="#">Read More ></a>
+                    <span class="circle"></span>
+                    <span class="date">February 2022</span>
+                </li>
+                <li>
+                    <h3 class="title">Full Stack Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
+                    <a href="#">Read More ></a>
+                    <span class="circle"></span>
+                    <span class="date">March 2022</span>
+                </li>
+                <li>
+                    <h3 class="title">App Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque quidem esse? Incidunt, odit beatae?</p>
+                    <a href="#">Read More ></a>
+                    <span class="circle"></span>
+                    <span class="date">April 2022</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 
 
+
+
+
+
+</section>
+
+
+<section id="#Skills" class="skills">
+    <h3 class="heading_2">SKILLS</h3>
+    <div class="slider">
+
+        <div class="slide-track">
+            <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+        <div class="slide"><a href="#"><img src="assets/images/logo1.png" width="100" height="100" alt=""></a></div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <h3 class="heading_2"></h3>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+<section class=" Projects">
+
+    <div class="project-container">
+        <div class="cards">
+            <div class="box">
+                <div class="box-content">
+                    <h2>01</h2>
+                    <h3>Card one</h3>
+                    <p>the rethhds jhsdgf lsdf sdhf sodif asdufha df
+                    ap dfa fd asdhf as d
+                    asd sd fasudhyf aisudhf aosdiuf</p>
+                    <a href="#">Read More</a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="cards">
+            <div class="box">
+                <div class="box-content">
+                    <h2>01</h2>
+                    <h3>Card one</h3>
+                    <p>the rethhds jhsdgf lsdf sdhf sodif asdufha df
+                        ap dfa fd asdhf as d
+                        asd sd fasudhyf aisudhf aosdiuf</p>
+                    <a href="#">Read More</a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cards">
+            <div class="box">
+                <div class="box-content">
+                    <h2>01</h2>
+                    <h3>Card one</h3>
+                    <p>the rethhds jhsdgf lsdf sdhf sodif asdufha df
+                        ap dfa fd asdhf as d
+                        asd sd fasudhyf aisudhf aosdiuf</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+
+</section>
+
+
+
+<!--
 <section class="trial">
     <div class="glass">
         <div class="card">
@@ -113,12 +244,35 @@
 
     </div>
 
-</section>
+</section>-->
 
 
 
 
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
+
+
 </html>
 
 <!--.trial::after{
