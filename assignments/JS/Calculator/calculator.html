@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="calculator">
-            <input type="text" placeholder="0">
+            <input type="text" placeholder="0" id="output-screen">
             <button onclick="clear()">CI</button>
             <button onclick="del()">DEL</button>
             <button onclick="display('%')">%</button>
@@ -26,9 +27,34 @@
             <button onclick="display('+')">+</button>
             <button onclick="display('.')">.</button>
             <button onclick="display('0')">0</button>
-            <button onclick="Calculate()">=</button>
+            <button onclick="Calculate()" class="equal">ENTER</button>
 
         </div>
     </div>
+
+<script>
+    let outputScreen = document.getElementById("output-screen");
+    function display(num) {
+        outputScreen.value += num;
+
+    }
+    function Calculate() {
+        try{
+            outputScreen.value = eval(outputScreen.value);
+
+        }
+        catch(err){
+            alert("invalid Entry")
+        }
+    }
+    function clear(){
+        outputScreen.value = "";
+    }
+    function del() {
+        outputScreen.value = outputScreen.value.slice(0,-1);
+
+    }
+</script>
+
 </body>
 </html>
