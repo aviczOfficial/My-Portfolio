@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9beb8f-741d-4efd-b4db-fe895452772d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assignments/JS/SPA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -73,7 +74,8 @@
       <workItem from="1664110576611" duration="7140000" />
       <workItem from="1664203505449" duration="2431000" />
       <workItem from="1664957080147" duration="1283000" />
-      <workItem from="1665201077159" duration="10908000" />
+      <workItem from="1665201077159" duration="15635000" />
+      <workItem from="1665293499702" duration="4486000" />
     </task>
     <servers />
   </component>
@@ -90,11 +92,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="520" y="89" key="RollbackChangesDialog/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663775524250" />
-    <state x="401" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1665201094082">
+    <state x="401" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1665293538298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="401" y="204" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1664957144263" />
     <state x="401" y="204" key="com.intellij.ide.util.TipDialog/0.0.1536.824/251.-768.1366.728@0.0.1536.824" timestamp="1665201094082" />
+    <state x="401" y="204" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1665293538298" />
     <state x="401" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663775489567" />
     <state x="401" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.864/295.-768.1366.768@0.0.1536.864" timestamp="1657595506927" />
     <state x="39" y="135" key="new project wizard" timestamp="1657595657807">
