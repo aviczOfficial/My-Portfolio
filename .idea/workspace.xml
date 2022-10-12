@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -76,7 +76,7 @@
       <workItem from="1665201077159" duration="15635000" />
       <workItem from="1665293499702" duration="10655000" />
       <workItem from="1665472040653" duration="2766000" />
-      <workItem from="1665553547857" duration="4791000" />
+      <workItem from="1665553547857" duration="9158000" />
     </task>
     <servers />
   </component>
@@ -89,9 +89,10 @@
     </state>
     <state x="499" y="113" key="FileChooserDialogImpl/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663776595115" />
     <state x="499" y="113" key="FileChooserDialogImpl/0.0.1536.864/295.-768.1366.768@0.0.1536.864" timestamp="1657595651083" />
-    <state x="520" y="89" key="RollbackChangesDialog" timestamp="1663775524250">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="520" y="85" key="RollbackChangesDialog" timestamp="1665565261135">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="520" y="85" key="RollbackChangesDialog/0.0.1536.824/251.-768.1366.728@0.0.1536.824" timestamp="1665565261135" />
     <state x="520" y="89" key="RollbackChangesDialog/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1663775524250" />
     <state x="401" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1665553547964">
       <screen x="0" y="0" width="1536" height="824" />
