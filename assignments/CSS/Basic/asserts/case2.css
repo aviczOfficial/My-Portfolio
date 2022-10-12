@@ -73,8 +73,9 @@ body>main>nav>ul>li:hover{
 
 main{
     border: 1px solid white;
-    position: relative;
     min-height: 100vh;
+    position: relative;
+
 }
 
 
@@ -96,24 +97,24 @@ body>main>section>section{
 
 body>main>section>section>div:first-child{
     display: inline-block;
-    top: 5px;
-
+    top: 10px;
 }
 
 
 body>main>section>section>div:nth-child(2){
     display: inline-block;
-    top: 5px;
+    top: 10px;
 
 }
 
 body>main>section>section>div:nth-child(3){
     display: inline-block;
-    top: 5px;
-
+    top: 10px;
 
 }
-
+p{
+    position: relative;
+}
 
 footer{
     background-color: #5c5f58;
