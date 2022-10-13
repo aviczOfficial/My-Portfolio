@@ -140,15 +140,15 @@ header ul li a.active
 
 .about-myself{
   width: 100%;
-  height: 150vh;
+  height: auto;
   background-color: #d7d7d7;
 
 }
 .about-myself img{
   width: 30%;
-  height: 80vh;
+  height: 70vh;
   margin-left: 100px;
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 100px;
   bottom: 30%;
 }
@@ -602,23 +602,150 @@ ul li .date{
 .assignments{
   width: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #929292;
+
+}
+.assignments h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
-.assignments.nav{
+.assignments nav{
   position: absolute;
-  top: 50%;
+  left: 20%;
+  transform: translate(-50% , -50%);
+  background: #ffffff;
+  width: 25%;
+  line-height:30px ;
+  padding: 8px 25px;
+  border-radius: 5px;
+
+}
+.assignments nav .menu:before{
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  background: #b8b8b8;
+  right: 20px;
+  top: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.assignments nav label{
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+
+  cursor: pointer;
+}
+.assignments label span{
+  color: black;
+  float: right;
+  line-height: 35px;
+}
+.assignments nav ul {
+  position: absolute;
+  background: #b8b8b8;
+  list-style: none;
+  top: 75px;
+  width: 100%;
+  left: 0;
+  border-radius: 5px;
+  display: none;
+
+
+}
+[id^=btn]:checked + ul{
+  display: block;
+}
+
+.assignments nav ul li{
+  line-height: 40px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-bottom:1px solid rgba(0,0,0,0.2) ;
+}
+
+.assignments nav ul label{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.assignments nav ul a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+
+}
+.assignments nav ul a:hover,
+.assignments nav ul label:hover{
+  color: #920088;
+}
+.assignments nav ul ul{
+  position: static;
+
+}
+.assignments nav ul ul li{
+  line-height: 30px;
+  padding-left: 30px;
+  border-bottom: none;
+}
+
+.assignments nav ul ul li a{
+  color: #000000;
+  font-size: 17px;
+
+}
+
+.assignments nav ul label span{
+  color: #000000;
+  font-size: 20px;
+  float: right;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+.assignments input{
+  display: none;
+}
+
+/*-------------------------------------*/
+.assignments .navCls{
+  position: absolute;
   left: 50%;
   transform: translate(-50% , -50%);
-  background: #1b1b1b;
-
-
+  background: #ffffff;
+  width: 25%;
+  line-height:30px ;
+  padding: 8px 25px;
+  border-radius: 5px;
 
 }
+/*----------------*/
+.assignments .navCls_2{
+  position: absolute;
+  left: 80%;
+  transform: translate(-50% , -50%);
+  background: #ffffff;
+  width: 25%;
+  line-height:30px ;
+  padding: 8px 25px;
+  border-radius: 5px;
+
+}
+
+
+
 
 .Contact{
   width: 100%;
   height: 500px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }

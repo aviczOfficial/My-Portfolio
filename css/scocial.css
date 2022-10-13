@@ -2,16 +2,16 @@
     width: 230px;
     height: 500px;
     position: relative;
-    top: 100px;
+    top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-family: Ubuntu;
-    left: 104%;
+    right: 23%;
 }
 
 .sc .scc {
-    right: 0;
+    left: 0;
     position: relative;
     height: 50px;
     width: 100%;
@@ -25,7 +25,7 @@
 }
 
 .sc .scc h3 {
-    padding-left: 100px;
+    padding-left: 10px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -35,12 +35,12 @@
 
 .sc .scc i {
     position: absolute;
-    left: 15px;
+    left: 190px;
     top: 0;
     bottom: 0;
     height: max-content;
     margin: auto;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
