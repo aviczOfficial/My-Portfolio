@@ -1,0 +1,50 @@
+.sc{
+    width: 230px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Ubuntu;
+    right: 175px;
+}
+
+div > div {
+    left: 0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #aa03b4;
+    color: white;
+    box-shadow: 3px 2px 5px 1px rgba(37, 20, 158, 0.62);
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+section > div > h3 {
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+}
+
+section > div > i {
+    position: absolute;
+    right: 15px;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+    margin: auto;
+    font-size: 25px;
+}
+
+section>div:hover{
+
+    left: 175px;
+    transition-property: all;
+    transition-duration: 1s;
+}
