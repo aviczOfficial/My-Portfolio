@@ -1,0 +1,17 @@
+.s-footer{
+    width: 100%;
+    background: black;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: #6a06ec;
+    min-height: 100px;
+    padding: 20px 50px;
+
+}
