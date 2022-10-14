@@ -1,3 +1,5 @@
+
+
 ::-webkit-scrollbar {
     background: #192F35;
     width: 1em;
@@ -19,3 +21,4 @@
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(#dc00f0, #6a06ec);
 }
+
