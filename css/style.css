@@ -95,7 +95,7 @@ header ul li a.active
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
-
+  opacity: 70%;
 }
 @keyframes back {
   100%{
@@ -141,7 +141,7 @@ header ul li a.active
 .about-myself{
   width: 100%;
   height: auto;
-  background-color: #d7d7d7;
+  background-color: #D7D7D7;
 
 }
 .about-myself img{
@@ -248,6 +248,7 @@ button:hover{
 /*glasssss*/
 
 .glass{
+
   position: relative;
   display: flex;
   justify-content: center;
@@ -332,7 +333,7 @@ button:hover{
 .Projects{
   width: 100%;
   padding: 78px ;
-
+  background-color: #D7D7D7;
 
 }
 .project-container{
@@ -749,8 +750,8 @@ ul li .date{
 /*--------------------- skill -----------------------*/
 .SKILL{
   width: 100%;
-  height: 500px;
-  background-color: rgb(255, 255, 255);
+  height: auto;
+  background-color: #D7D7D7;
 }
 .SKILL .inner{
   padding-top: 20px;
@@ -785,7 +786,7 @@ ul li .date{
 }
 .skill-box{
   padding: 1rem;
-  color: #ddd;
+  color: #fcfcfc;
   cursor: pointer;
 
 }
@@ -795,8 +796,52 @@ ul li .date{
   align-items: center;
   padding: 1rem;
   margin-bottom: 0.5rem;
+  position: relative;
 }
 
+
+
+
 .SKILL i{
-  font-size: 75px;
+  font-size: 50px;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  border-radius: 45px;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.SKILL i:hover{
+  color: rgb(132, 3, 255);
+}
+
+.SKILL i:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 90px;
+  background: rgba(100,100,100,0.5);
+  border-radius: 45px 0 0 45px;
+
+
+}
+
+.skill-title h3{
+  color: black;
+  margin: 0.5rem;
+
+
+}
+
+@media screen and(max-width: 990px) {
+  .skill-container{
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem 50px;
+  }
+
 }

@@ -2,12 +2,12 @@
     width: 230px;
     height: 500px;
     position: relative;
-    top: 150px;
+    top: 110px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-family: Ubuntu;
-    right: 23%;
+    right: 25%;
 }
 
 .sc .scc {
